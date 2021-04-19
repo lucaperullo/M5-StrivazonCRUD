@@ -25,6 +25,10 @@ const productsSchema = {
     isString: true,
     errorMessage: "A brand is required",
   },
+  Price: {
+    isString: true,
+    errorMessage: "A price is required",
+  },
 };
 
 const productsRoutes = Router();
